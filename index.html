@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ulang Tahun</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Halaman 1 -->
+    <div id="halaman1" class="halaman aktif">
+        <h1>Happy Birthday! 🎂</h1>
+        <p>Ada sesuatu untukmu...</p>
+
+        <button onclick="mulai()">Mulai 💌</button>
+    </div>
+
+
+    <!-- Halaman 2 -->
+<div id="halaman2" class="halaman">
+
+    <div class="kartu-pesan">
+
+        <div class="hiasan-pesan">💌</div>
+
+        <h1>Sebuah Pesan</h1>
+
+        <p class="pesan-pembuka">
+            Hari ini adalah hari spesialmu! ✨
+        </p>
+
+        <div class="garis-pesan"></div>
+
+        <button onclick="bukaPesan()">Buka Pesan 💖</button>
+
+        <p id="pesan" class="pesan-tersembunyi">
+            Semoga hari ulang tahunmu menjadi hari yang sangat spesial! ❤️
+        </p>
+
+        <button onclick="keHalaman3()">Lihat Foto 📸</button>
+
+    </div>
+
+</div>
+
+
+    <!-- Halaman 3 -->
+    <div id="halaman3" class="halaman">
+        <h1>A Little Something For You 📸</h1>
+
+        <p class="subtitle">
+            Just a few pictures of you, because today is all about you. ✨
+        </p>
+
+        <div class="gallery">
+            <img src="foto/foto1.jpg" alt="Foto 1"
+                onclick="bukaFoto(this)">
+
+            <img src="foto/foto2.jpg" alt="Foto 2"
+                onclick="bukaFoto(this)">
+
+            <img src="foto/foto3.jpg" alt="Foto 3"
+                onclick="bukaFoto(this)">
+
+            <img src="foto/foto4.jpg" alt="Foto 4"
+                onclick="bukaFoto(this)">
+        </div>
+
+        <button onclick="keHalaman4()">Lanjut 💌</button>
+    </div>
+
+
+    <!-- Halaman 4 -->
+    <div id="halaman4" class="halaman">
+    <h1>One More Thing 💌</h1>
+
+    <p class="surat-pembuka">
+        Ada satu hal lagi untukmu...
+    </p>
+
+    <div class="amplop" onclick="bukaSurat()">
+        <div class="amplop-atas"></div>
+        <div class="amplop-kertas">
+            💌
+        </div>
+    </div>
+
+
+    <div id="surat" class="surat">
+        <h2>Untukmu 🤍</h2>
+
+        <p>
+            Selamat ulang tahun! 🎂
+        </p>
+
+        <p>
+            Happy birthday! Selamat bertambah usia. Senang rasanya bisa melihat kamu bertumbuh sampai hari ini. Kamu selalu jadi salah satu orang paling tangguh yang aku kenal.
+        </p>
+
+        <p>
+            Semoga di tahun yang baru ini, kamu selalu dikelilingi oleh hal-hal baik, ketenangan pikiran, dan orang-orang yang tulus menyayangimu. Kurangi begadang dan jangan terlalu keras sama diri sendiri, ya. Pokoknya, sukses terus buat karier dan kehidupanmu ke depan. Senang bisa terus jadi sahabatmu. Enjoy your day!
+        </p>
+    </div>
+
+    <p class="tekan-surat">Tekan surat untuk membukanya</p>
+      <button onclick="keHalaman5()">Lanjut 🎂</button>
+    </div>
+
+
+  
+<!-- <!-- Halaman 5 -->
+<div id="halaman5" class="halaman">
+    <h1>Make a Wish! 🎂</h1>
+
+    <p class="kue-subtitle">
+        Tiup lilinnya dan buat satu harapan ✨
+    </p>
+
+    <div class="kue" onclick="tiupLilin()">
+
+        <div class="lilin lilin1">
+            <div class="api">🔥</div>
+        </div>
+
+        <div class="lilin lilin2">
+            <div class="api">🔥</div>
+        </div>
+
+        <div class="lilin lilin3">
+            <div class="api">🔥</div>
+        </div>
+
+        <div class="lapisan atas"></div>
+        <div class="lapisan tengah"></div>
+        <div class="lapisan bawah"></div>
+
+    </div>
+
+    <div id="ucapanAkhir" class="ucapan-akhir">
+        <h2>HAPPY BIRTHDAY</h2>
+        <h3>Calsium Nitrogen Titanium Kalium</h3>
+        <h4>Hmm... what could this mean? </h4>
+    </div>
+
+</div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
