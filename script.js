@@ -1,6 +1,9 @@
 function mulai() {
     document.getElementById("halaman1").classList.remove("aktif");
     document.getElementById("halaman2").classList.add("aktif");
+
+    const musik = document.getElementById("backsound");
+    musik.play();
 }
 
 
