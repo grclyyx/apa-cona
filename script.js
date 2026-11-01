@@ -5,8 +5,6 @@ function mulai() {
     const musik = document.getElementById("backsound");
     musik.play();
 }
-
-
 function bukaPesan() {
     document.getElementById("pesan").classList.remove("pesan-tersembunyi");
 }
